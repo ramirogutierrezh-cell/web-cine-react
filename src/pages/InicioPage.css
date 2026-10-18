@@ -1,0 +1,15 @@
+.inicio-page {
+  padding: 2rem 6rem 4rem;
+}
+
+.inicio-page section {
+  border-top: 1px solid #ddd;
+  min-height: 12rem;
+  padding-top: 1.5rem;
+}
+
+@media (max-width: 48rem) {
+  .inicio-page {
+    padding-inline: 1.5rem;
+  }
+}
