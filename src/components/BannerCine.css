@@ -1,0 +1,31 @@
+.banner-cine {
+  align-items: center;
+  background: #29262b;
+  color: #fff;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  min-height: 15rem;
+  padding: 2.5rem 3rem;
+}
+
+.banner-cine h2 {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-weight: 400;
+  line-height: 1.15;
+  margin: 0;
+  max-width: 15ch;
+}
+
+.banner-cine__marca {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 42rem) {
+  .banner-cine {
+    gap: 2.5rem;
+    grid-template-columns: 1fr;
+    padding: 2rem 1.5rem;
+  }
+}

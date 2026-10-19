@@ -1,0 +1,18 @@
+.logo-cine {
+  display: block;
+  height: 4.5rem;
+  object-fit: contain;
+  width: 4.5rem;
+}
+
+.logo-cine--grande {
+  height: 11rem;
+  width: 11rem;
+}
+
+@media (max-width: 42rem) {
+  .logo-cine--grande {
+    height: 8rem;
+    width: 8rem;
+  }
+}
