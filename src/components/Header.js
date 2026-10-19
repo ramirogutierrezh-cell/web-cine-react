@@ -6,7 +6,7 @@ function Header() {
     <header className="site-header">
       <LogoCine />
       <nav className="site-header__nav" aria-label="Navegación principal">
-        <a href="#inicio">Inicio</a>
+        <span>Inicio</span>
         <a href="#cartelera">Cartelera</a>
         <a href="#servicios">Servicios</a>
         <a href="#ubicacion">Ubicación</a>
