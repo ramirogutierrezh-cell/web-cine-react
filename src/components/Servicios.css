@@ -1,0 +1,14 @@
+.servicios {
+  padding-block: 4rem;
+}
+
+.servicios h2 {
+  font-size: 2.25rem;
+  font-weight: 400;
+  margin: 0 0 1.75rem;
+}
+
+.servicios__lista {
+  display: grid;
+  gap: 1.5rem;
+}

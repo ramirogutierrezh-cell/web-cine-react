@@ -1,0 +1,47 @@
+.servicio-panel {
+  background: #fff;
+  box-sizing: border-box;
+  padding: 2rem;
+  width: min(100%, 38rem);
+}
+
+.servicio-panel--derecha {
+  margin-left: auto;
+}
+
+.servicio-panel h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0 0 0.75rem;
+}
+
+.servicio-panel p {
+  line-height: 1.5;
+  margin: 0 0 1rem;
+}
+
+.servicio-panel img {
+  aspect-ratio: 3 / 2;
+  display: block;
+  margin-bottom: 1.5rem;
+  object-fit: cover;
+  width: 100%;
+}
+
+.servicio-panel button {
+  background: #fff;
+  border: 1px solid #c9c5c1;
+  color: #302c29;
+  cursor: pointer;
+  font: inherit;
+  padding: 0.6rem 1.15rem;
+}
+
+.servicio-panel button:hover {
+  background: #f0eeec;
+}
+
+.servicio-panel button:focus-visible {
+  outline: 2px solid #55504c;
+  outline-offset: 2px;
+}

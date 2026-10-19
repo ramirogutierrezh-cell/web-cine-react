@@ -1,6 +1,7 @@
 import Header from '../components/Header';
 import Cartelera from '../components/Cartelera';
 import BannerCine from '../components/BannerCine';
+import Servicios from '../components/Servicios';
 import './InicioPage.css';
 
 function InicioPage() {
@@ -11,9 +12,7 @@ function InicioPage() {
         <h1 className="inicio-page__title">Inicio</h1>
         <Cartelera />
         <BannerCine />
-        <section id="servicios" className="inicio-page__pendiente" aria-labelledby="servicios-title">
-          <h2 id="servicios-title">Servicios</h2>
-        </section>
+        <Servicios />
         <section id="ubicacion" className="inicio-page__pendiente" aria-labelledby="ubicacion-title">
           <h2 id="ubicacion-title">Ubicación</h2>
         </section>
