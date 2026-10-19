@@ -1,0 +1,57 @@
+.pelicula-card {
+  aspect-ratio: 1;
+  background: #fff;
+  border: 1px solid #dedbd8;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.pelicula-card__poster {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  min-height: 0;
+}
+
+.pelicula-card__poster span {
+  border: 1px solid currentColor;
+  display: grid;
+  font-size: 2.5rem;
+  height: 6rem;
+  place-items: center;
+  width: 6rem;
+}
+
+.pelicula-card__poster--orbita {
+  background: #e5e0dc;
+  color: #675d59;
+}
+
+.pelicula-card__poster--medianoche {
+  background: #d8dce0;
+  color: #505b63;
+}
+
+.pelicula-card__poster--marea {
+  background: #dee3de;
+  color: #536259;
+}
+
+.pelicula-card__info {
+  padding: 1.25rem;
+}
+
+.pelicula-card__info h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.pelicula-card__info p {
+  color: #716d69;
+  font-size: 0.95rem;
+  margin: 0.5rem 0 0;
+}
