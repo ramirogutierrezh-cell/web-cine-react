@@ -1,12 +1,12 @@
 import './PeliculaCard.css';
 
-function PeliculaCard({ pelicula, numero }) {
-  const { titulo, duracion, estilo } = pelicula;
+function PeliculaCard({ pelicula }) {
+  const { titulo, duracion, poster } = pelicula;
 
   return (
     <article className="pelicula-card">
-      <div className={`pelicula-card__poster pelicula-card__poster--${estilo}`} aria-hidden="true">
-        <span>{String(numero).padStart(2, '0')}</span>
+      <div className="pelicula-card__poster">
+        {poster ? <img src={poster} alt="" loading="lazy" /> : <span>Sin póster</span>}
       </div>
       <div className="pelicula-card__info">
         <h3>{titulo}</h3>
